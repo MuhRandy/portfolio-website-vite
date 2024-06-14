@@ -1,0 +1,113 @@
+{
+  "navs": [
+    {
+      "link": "home",
+      "name": "Home",
+      "offset": -70
+    },
+    {
+      "link": "about",
+      "name": "About",
+      "offset": -130
+    },
+    {
+      "link": "skill-and-experience",
+      "name": "Skill and Experience",
+      "offset": -70
+    },
+    {
+      "link": "my-work",
+      "name": "My Work",
+      "offset": -70
+    },
+    {
+      "link": "my-blog",
+      "name": "My Blog",
+      "offset": -70
+    },
+    {
+      "link": "contact",
+      "name": "Contact",
+      "offset": -250
+    }
+  ],
+  "posts": [
+    {
+      "title": "Membuat Tooltip dengan HTML & CSS",
+      "date": "Apr 20, 2024",
+      "text": "Sebelum kita membuat tooltip, sebaiknya kita mengetahui apa sih itu tooltip dan bagaimana contohnya. Melansir dari W3School, tooltip adalah...",
+      "url": "https://medium.com/@muhammadrandy0027/membuat-tooltip-dengan-html-css-f758971c94f1?source=user_profile---------0----------------------------"
+    },
+    {
+      "title": "Membuat Web Resep Sederhana dengan Frontend Mentor",
+      "date": "Apr 6, 2024",
+      "text": "Akhir-akhir ini saya sedang seru-serunya belajar membuat web atau situs sederhana. Namun belajar dengan membaca konsep-konsep saja sering...",
+      "url": "https://medium.com/@muhammadrandy0027/belajar-membuat-web-resep-sederhana-dengan-frontend-mentor-c73a54afcd74?source=user_profile---------1----------------------------"
+    },
+    {
+      "title": "Analisis Data Genre Netflix Original Shows yang Paling Banyak Dibatalkan (2014–2023)",
+      "date": "Sep 20, 2023",
+      "text": "Data diambil dari Kaggle dimana dataset ini berisi tentang Original Shows Netflix yang berakhir dari tahun 2014 hingga 2023. Untuk tahapan…",
+      "url": "https://medium.com/@muhammadrandy0027/genre-netflix-original-shows-yang-paling-banyak-dibatalkan-2014-2023-8f9dfbd50fc?source=user_profile---------2----------------------------"
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "MTs Miftahul Ulum Website",
+      "imgSrc": "./src/assets/projects/school-website.jpg",
+      "siteLink": "https://mts-miftahul-ulum.web.app/",
+      "githubLink": "https://github.com/MuhRandy/mts-school-web",
+      "desc": "MTs Miftahul Ulum that have auth, CRUD, and filter post category feature using Firebase as a Backend",
+      "buildWith": ["reactjs", "firebase", "tailwindcss", "typescript"]
+    },
+    {
+      "projectName": "Qur'an Memorize Quiz",
+      "imgSrc": "./src/assets/projects/quran-memorize-quiz.png",
+      "siteLink": "https://muhrandy.github.io/quran-memorize-quiz/",
+      "githubLink": "https://github.com/MuhRandy/quran-memorize-quiz",
+      "desc": "A simple quran memorize quiz. User can select the Surah and how many question will generate, when user select the answer, there will indicate which answer is right and wrong, and also user score at the end.",
+      "buildWith": ["reactjs", "tailwindcss", "typescript"]
+    },
+    {
+      "projectName": "Markdown Preview",
+      "imgSrc": "./src/assets/projects/react-markdown-preview.jpg",
+      "siteLink": "https://muhrandy.github.io/react-markdown-preview-fcc/",
+      "githubLink": "https://github.com/MuhRandy/react-markdown-preview-fcc",
+      "desc": "A simple responsive markdown preview with maximize and minimize button and user can choose layout between side by side or top and down.",
+      "buildWith": ["reactjs", "tailwindcss"]
+    },
+    {
+      "projectName": "Random Quote Machine",
+      "imgSrc": "./src/assets/projects/random-quote-machine.jpg",
+      "siteLink": "https://muhrandy.github.io/random-quote-machine/",
+      "githubLink": "https://github.com/MuhRandy/random-quote-machine",
+      "desc": "A simple responsive random quote web that using free api and user can share quote to twitter with single click.",
+      "buildWith": ["reactjs", "tailwindcss"]
+    },
+    {
+      "projectName": "Bookshelf App",
+      "imgSrc": "./src/assets/projects/bookshelf-app.jpg",
+      "siteLink": "https://muhrandy.github.io/bookshelf-app-vanilla-js/",
+      "githubLink": "https://github.com/MuhRandy/bookshelf-app-vanilla-js",
+      "desc": "A simple responsive bookshelf app to list what book you already read or not read yet",
+      "buildWith": ["html", "css", "javascript"]
+    }
+  ],
+  "experiences": [
+    {
+      "jobTitle": "Frontend Internship",
+      "company": "PT. Lorem Ipsum",
+      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestia's possimus incidunt minima voluptas corporis ipsa aliquam ut fuga illum laborum?"
+    },
+    {
+      "jobTitle": "Backend Internship",
+      "company": "PT. Lorem Ipsum 2",
+      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestia's possimus incidunt minima voluptas corporis ipsa aliquam ut fuga illum laborum?"
+    },
+    {
+      "jobTitle": "Fullstack Internship",
+      "company": "PT. Lorem Ipsum 3",
+      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestia's possimus incidunt minima voluptas corporis ipsa aliquam ut fuga illum laborum?"
+    }
+  ]
+}
