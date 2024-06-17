@@ -39,7 +39,7 @@ function Footer() {
 
         <p>Copyright © 2024 - Created by Muhammad Randy</p>
 
-        <p>Made with ❤ using Vite</p>
+        <p>Made with ❤ using React</p>
       </Section>
     </footer>
   );

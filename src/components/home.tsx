@@ -22,7 +22,7 @@ function Home() {
             sequence={[
               "Hello, I'm Muhammad Randy",
               3000,
-              "Hello, I'm an Aspiring Web Developer",
+              "Hello, I'm a Web Developer",
               3000,
             ]}
             speed={50}
@@ -37,9 +37,8 @@ function Home() {
             initial="fromLeft"
             className="inline-block"
           >
-            I am an aspiring Web Developer. Now I live in Banjar, South
-            Kalimantan. If you are interested in working with me, you can
-            contact me to hire me.
+            I am a Web Developer. Now I live in Banjar, South Kalimantan. If you
+            are interested in working with me, you can contact me to hire me.
           </motion.span>
         </SectionText>
 
