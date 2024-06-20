@@ -12,6 +12,11 @@ import {
 } from "@tabler/icons-react";
 import { ProjectData } from "@/lib/type";
 import { cn } from "@/lib/utils";
+import schoolWebsite from "@/assets/projects/school-website.jpg";
+import quranMemorizeQuiz from "@/assets/projects/quran-memorize-quiz.png";
+import markdownPreview from "@/assets/projects/react-markdown-preview.jpg";
+import randomQuoteMachine from "@/assets/projects/random-quote-machine.jpg";
+import bookshelfApp from "@/assets/projects/bookshelf-app.jpg";
 
 function CardProject({
   projectName,
@@ -95,9 +100,27 @@ function CardProject({
     }
   };
 
+  const generateIMG = (imgSrc: string, projectName: string) => {
+    switch (imgSrc) {
+      case "schoolWebsite":
+        return <img src={schoolWebsite} alt={projectName} />;
+      case "markdownPreview":
+        return <img src={markdownPreview} alt={projectName} />;
+      case "randomQuoteMachine":
+        return <img src={randomQuoteMachine} alt={projectName} />;
+      case "quranMemorizeQuiz":
+        return <img src={quranMemorizeQuiz} alt={projectName} />;
+      case "bookshelfApp":
+        return <img src={bookshelfApp} alt={projectName} />;
+
+      default:
+        break;
+    }
+  };
+
   return (
     <Card className="overflow-hidden relative group">
-      <img src={imgSrc} alt={projectName} />
+      {generateIMG(imgSrc, projectName)}
 
       <div
         className={cn(

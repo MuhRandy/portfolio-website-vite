@@ -54,7 +54,7 @@
   "projects": [
     {
       "projectName": "MTs Miftahul Ulum Website",
-      "imgSrc": "./src/assets/projects/school-website.jpg",
+      "imgSrc": "schoolWebsite",
       "siteLink": "https://mts-miftahul-ulum.web.app/",
       "githubLink": "https://github.com/MuhRandy/mts-school-web",
       "desc": "MTs Miftahul Ulum that have auth, CRUD, and filter post category feature using Firebase as a Backend",
@@ -62,7 +62,7 @@
     },
     {
       "projectName": "Qur'an Memorize Quiz",
-      "imgSrc": "./src/assets/projects/quran-memorize-quiz.png",
+      "imgSrc": "quranMemorizeQuiz",
       "siteLink": "https://muhrandy.github.io/quran-memorize-quiz/",
       "githubLink": "https://github.com/MuhRandy/quran-memorize-quiz",
       "desc": "A simple quran memorize quiz. User can select the Surah and how many question will generate, when user select the answer, there will indicate which answer is right and wrong, and also user score at the end.",
@@ -70,7 +70,7 @@
     },
     {
       "projectName": "Markdown Preview",
-      "imgSrc": "./src/assets/projects/react-markdown-preview.jpg",
+      "imgSrc": "markdownPreview",
       "siteLink": "https://muhrandy.github.io/react-markdown-preview-fcc/",
       "githubLink": "https://github.com/MuhRandy/react-markdown-preview-fcc",
       "desc": "A simple responsive markdown preview with maximize and minimize button and user can choose layout between side by side or top and down.",
@@ -78,7 +78,7 @@
     },
     {
       "projectName": "Random Quote Machine",
-      "imgSrc": "./src/assets/projects/random-quote-machine.jpg",
+      "imgSrc": "randomQuoteMachine",
       "siteLink": "https://muhrandy.github.io/random-quote-machine/",
       "githubLink": "https://github.com/MuhRandy/random-quote-machine",
       "desc": "A simple responsive random quote web that using free api and user can share quote to twitter with single click.",
@@ -86,7 +86,7 @@
     },
     {
       "projectName": "Bookshelf App",
-      "imgSrc": "./src/assets/projects/bookshelf-app.jpg",
+      "imgSrc": "bookshelfApp",
       "siteLink": "https://muhrandy.github.io/bookshelf-app-vanilla-js/",
       "githubLink": "https://github.com/MuhRandy/bookshelf-app-vanilla-js",
       "desc": "A simple responsive bookshelf app to list what book you already read or not read yet",
